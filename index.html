@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diwali Office Voting</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800;900&family=Yatra+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="toran" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><canvas id="fx"></canvas><div class="glow"></div>
+<svg class="rangoli" viewBox="0 0 200 200" fill="none" stroke="#B3203F" stroke-width="1.2"><g transform="translate(100 100)"><circle r="92"/><circle r="70"/><circle r="22"/><g id="p"><path d="M0-92Q16-60 0-34Q-16-60 0-92Z"/><circle cy="-100" r="3" fill="#FFB43A"/></g><use href="#p" transform="rotate(30)"/><use href="#p" transform="rotate(60)"/><use href="#p" transform="rotate(90)"/><use href="#p" transform="rotate(120)"/><use href="#p" transform="rotate(150)"/><use href="#p" transform="rotate(180)"/><use href="#p" transform="rotate(210)"/><use href="#p" transform="rotate(240)"/><use href="#p" transform="rotate(270)"/><use href="#p" transform="rotate(300)"/><use href="#p" transform="rotate(330)"/></g></svg>
+<nav><b><i>🪔</i> Diwali Vote</b><div><a href="#home" data-v="home">Home</a><a href="#quiz" data-v="quiz">Quiz</a></div></nav>
+<main>
+<section class="view" id="home">
+ <div class="hero"><div class="event-pill">✦ OFFICE CELEBRATION · DIWALI 2026 ✦</div><h1>Shubh Deepawali!</h1><p>12 sawaal. Har sawaal mein 4 naam. Apne colleague ko chuno.<br><small class="mode-note">INTERACTIVE DESIGN DEMO · BROWSER-ONLY</small></p><a class="cta" href="#quiz">🪔 Apna vote do</a></div>
+ <div class="stripes">
+  <div class="s k" onclick="location.hash='quiz'"><p>Har sawaal padho aur 4 naamon mein se ek naam chuno.</p><h2>KHELO</h2></div>
+  <div class="s w" onclick="location.hash='quiz'"><p>Ek sawaal, chaar colleagues. Aapke hisaab se kaun?</p><h2>JANO</h2></div>
+  <div class="s h" onclick="location.hash='quiz'"><p>Office group mein link bhejo. Har colleague apna vote de.</p><h2>SHARE</h2></div>
+ </div>
+ <div class="trust"><span>🔒 Anonymous choices</span><span>✦ 12 questions · 4 names each</span><span>✓ One submission per browser · demo</span></div><div class="marq"><span id="mq"></span></div>
+</section>
+
+<section class="view" id="quiz"><div class="box">
+ <div class="bar"><i id="pb"></i></div><div class="cnt" id="cnt"></div>
+ <div class="qwrap" id="qw"></div>
+</div></section>
+
+<section class="view" id="review"><div class="box"><h2 class="t">Apne answers check karo</h2><div id="answers"></div><p class="demo-note">Design demo: answers sirf is browser mein save honge. Office ke sabhi votes ek jagah collect nahi honge.</p><p id="status" class="desc" role="status"></p><div class="row"><button class="cta ghost" id="back">← Wapas jao</button><button class="cta" id="submit">🪔 Answers save karo</button></div></div></section>
+<section class="view" id="result"><div class="card" id="card"><div class="emoji">🪔</div><div class="thank-title">Shukriya!</div><p class="desc">Aapke answers is browser mein save ho gaye hain.<br>Yeh design demo hai; answers kisi server par nahi bheje gaye.</p><div class="row"><a class="cta ghost" href="#home">Home par jao</a></div></div></section>
+</main>
+<footer>Made with 🪔 for Diwali 2026 · Office fun activity</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
 
